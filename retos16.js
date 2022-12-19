@@ -11,6 +11,7 @@ const fixLetter = letter => {
 		.replace(/^([A-z])/g, (_, $1) => $1.toUpperCase())
 		.trim()
 		.replace(/([A-z])($)/g, '$1.');
+		//alasd 
 };
 
 // Ejecucion
