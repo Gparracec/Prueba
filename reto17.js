@@ -1,4 +1,5 @@
 const carryGifts = (gifts, maxWeight) => {
+
     const bags = [];
   
     const lastAcc = gifts.reduce((acc, gift) => {
